@@ -7,12 +7,9 @@
 <body>
 
 <h1> WELCOME TO THE RANDOMIZER! </h1>
-<p> Pick words that are animals! Enter your first word! </p>
+<p id = "words"> Pick words that are animals! Enter your first word!"> </p>
 <input type = "text" id = "String1">
 
-
-<p> Enter another word: </p>
-<input type = "text">
 
 <p> Enter another word: </p>
 <input type = "text">
@@ -23,10 +20,10 @@
 <h2> The word picked out of your list is: </h2>
 <button type = "button" onclick = "myFunction() "> Click to see: </button>
 <script>
-document.write("Cat");
+function myFuntion(){
+  document.getElementById("words").innerHTML = " Cat";
+  
 </script>
-
-
 
 </body>
 </html>

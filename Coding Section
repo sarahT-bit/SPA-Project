@@ -19,6 +19,9 @@
 <p> Enter another word </p>
 <input type = "text">
 
+<p> The word picked out of your list is: </p>
+
+
 
 
 </body>

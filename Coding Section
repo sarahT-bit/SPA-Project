@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Randomizer </title>
+</head>
+
+<body>
+
+<h1> WELCOME TO THE RANDOMIZER! </h1>
+<p> Pick words that are animals! Enter your first word! </p>
+<input type = "text">
+
+<p> Enter another word </p>
+<input type = "text">
+
+<p> Enter another word </p>
+<input type = "text">
+
+<p> Enter another word </p>
+<input type = "text">
+
+
+
+</body>
+</html>
+
+
+

@@ -19,10 +19,8 @@
 <p> Enter another word </p>
 <input type = "text">
 
-<p> The word picked out of your list is: </p>
-
-
-
+<h2> The word picked out of your list is: </h2>
+<output type = "text"> 
 
 </body>
 </html>

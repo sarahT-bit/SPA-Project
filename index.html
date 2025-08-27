@@ -6,7 +6,7 @@
 
 <body>
 
-<h1> WELCOME TO THE LIST MAKER! </h1>
+<h1> WELCOME TO THE RANDOMIZER! </h1>
 <p> Pick words that are animals! Enter your first word!"> </p>
 <input type = "text" id = "String1">
 
@@ -14,16 +14,15 @@
 <p id = "uni"> Enter another animal: </p>
 <input type = "text">
 
-<p> Enter another animal: </p>
+<p id = "uni"> Enter one more animal: </p>
 <input type = "text">
 
 <h2> The word picked out of your list is: </h2>
 <button type = "button" onclick = "animalName() "> Click to see: </button>
 <script>
 function animalName(){
-  alert("Cat");
-  
-  document.getElementByID("uni").innerHTML = "Cat";
+
+document.getElementByID("uni").innerHTML = "Cat";
 }
   
   document.getElementByID("uni").innerHTML = "Dog";

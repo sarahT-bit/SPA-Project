@@ -12,15 +12,19 @@
 
 
 <p id = "uni"> Enter another animal: </p>
-<input type = "text">
+<input type = "text" id = "String2">
 
 <p id = "uni"> Enter one more animal: </p>
-<input type = "text"> 
+<input type = "text" id = "String3"> 
 
 <h2> The word picked out of your list is: </h2>
 <button type = "button" onclick = "animalName() "> Click to see: </button>
 <script>
 function animalName(){
+
+  var names = ["String1","String2", "String3"]
+  var randomIndex = Math.floor(Math.random() * names.length);
+  document.getElementByID("uni").innerHTML = ""
 
 document.getElementByID("uni").innerHTML = "Cat";
 }

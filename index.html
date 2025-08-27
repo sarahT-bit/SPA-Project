@@ -24,12 +24,12 @@
 <h2 id = "Output">
 <script>
 function animalName(){
-  let String1 = document.getElementByID("String1");
-  let String2 = document.getElementByID("String2");
-  let String3 =document.getElementByID("String3");
+  let String1 = document.getElementById("String1");
+  let String2 = document.getElementById("String2");
+  let String3 =document.getElementById("String3");
 
   let arr = [String1.value,String2.value,String3.value];
-  let output = document.getElementByID("Output");
+  let output = document.getElementById("Output");
   Output.innerText = arr[0];
 }  
 </script>

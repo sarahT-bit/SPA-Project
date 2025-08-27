@@ -19,17 +19,19 @@
 
 
 <h2> The word picked out of your list is: </h2>
+<input type = "h2" id = "Result">
 <button type = "button" onclick = "animalName() "> Click to see: </button>
+<h2 id = "Output">
 <script>
 function animalName(){
+  let String1 = document.getElementByID("String1");
+  let String2 = document.getElementByID("String2");
+  let String3 =document.getElementByID("String3");
 
-  var names = ["String1","String2", "String3"]
-  var randomIndex = Math.floor(Math.random() * names.length);
-  document.getElementByID("names").innerHTML = ""
-
-
-}
-  
+  let arr = [String1.value,String2.value,String3.value];
+  let output = document.getElementByID("Output");
+  Output.innerText = arr[0];
+}  
 </script>
 <a href="https://github.com/sarahT-bit/SPA-Project" >Link to repo</a>
 </body>

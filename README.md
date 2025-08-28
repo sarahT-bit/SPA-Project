@@ -14,8 +14,8 @@ Nothing would pop up. It was trial and error until I finally managed to get an w
 It was through declaring an id after the button line in my program. It was this:
 <h2 id = "Output">
   
-Although, I still haven't been able to display a RANDOM word from the list. It only selects the
-first one every time I run the website and I really struggled to fix it. 
+Although, I still haven't been able to display a RANDOM word from the list. It only selects the first one every time I run the website and I 
+have struggled trying to fix it. 
 I tried adding a Math.randomIndex = Math.floor(Math.random(arr.length)), but nothing 
 changed. 
 

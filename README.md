@@ -12,7 +12,7 @@ Choices and Challenges:
 
 My challenge was trying to display a word from the list. When I tried to click on the button that says " Click to see", 
 Nothing would pop up. It was trial and error until I finally managed to get a word displayed as the output.
-It was through declaring an id after the button line in my program
+It was through declaring an id after the button line in my program.
 
   
 Although, I still haven't been able to display a RANDOM word from the list. It only selects the first one every time I run the website and I 

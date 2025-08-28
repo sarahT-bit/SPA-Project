@@ -4,7 +4,7 @@ This SPA project is meant to serve as a simple word randomizer; The goal is for 
 
 Functionality:
 The website displays three seperate text boxes for the user to type in ANY ANIMAL they'd like. The program records the users answers 
-and from there, the button the user clicks will trigger a response and pick any one using values in the array line in the program.
+and from there, the button the user clicks will trigger a response and pick any one using values in the array line of the program.
 
 
 

@@ -1,13 +1,26 @@
 # SPA-Project
 Overview: 
-A randomizer; The goal is for a random word to be selected from the list that the user has typed. 
+This SPA project is meant to serve as a simple word randomizer; The goal is for a random word to be chosen from text boxes the user fills out. 
 
 Functionality:
-The website has 3 text boxes that the user can use to type in any animal. Then, there is a button 
-that they can click on, revealing which word will appear on the screen. 
+The website displays three seperate text boxes for the user to type in ANY ANIMAL they'd like. The program records the users answers 
+and from there, the button the user clicks will trigger a response and pick any one using values from the array line from the program. 
+
 
 Choices and Challenges: 
 
-The challenge was trying to display a random word from the list. When I tried to click on the button that says " Click to see", nothing would pop up. 
+My challenge was trying to display a word from the list. When I tried to click on the button that says " Click to see", 
+Nothing would pop up. It was trial and error until I finally managed to get an word displayed as the output.
+It was through deciding to declare an id after the button line in my program. It was this:
+
+<h2 id = "Output">
+  
+Although, I still haven't been able to display a RANDOM word from the list. It only selects the
+first one every time I run the website and I really struggled to fix it. 
+I tried adding a Math.randomIndex = Math.floor(Math.random(arr.length)), but nothing 
+changed. 
+
+
+
 
 post link to the website when I submit 

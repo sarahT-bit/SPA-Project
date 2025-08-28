@@ -15,7 +15,7 @@ Nothing would pop up. It was trial and error until I finally managed to get a wo
 It was through declaring an id after the button line in my program.
 
   
-Although, I still haven't been able to display a RANDOM word from the list. It only selects the first one every time I run the website and I 
+Although, I still haven't been able to display a RANDOM word from the list. It only selects the first response every time I click on the button and I 
 have struggled trying to fix it. I tried adding a Math.randomIndex = Math.floor(Math.random(arr.length)), but nothing 
 changed. 
 

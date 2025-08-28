@@ -29,8 +29,12 @@ function animalName(){
   let String3 =document.getElementById("String3");
 
   let arr = [String1.value,String2.value,String3.value];
+ 
+  let randomIndex = Math.floor(Math.random(arr.length))
   let output = document.getElementById("Output");
-  Output.innerText = arr[0,1,2];
+
+  OutPut.innerText = arr[randomIndex] 
+
 }  
 </script>
 <a href="https://github.com/sarahT-bit/SPA-Project" >Link to repo</a>

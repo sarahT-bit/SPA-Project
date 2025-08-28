@@ -21,5 +21,3 @@ changed.
 
 
 
-
-post link to the website when I submit 
